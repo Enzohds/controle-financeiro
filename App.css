@@ -1,0 +1,75 @@
+body{
+    font-family: Arial,  sans-serif;
+    background-color: rgba(224, 0, 0, 0.516);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+background-color: green;
+}
+.app {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sessao {
+    margin-top: 20px;
+}
+
+.contador span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.texto {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.resposta button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ;
+}
+
+.resposta button:hover {
+    background-color: #ddd;
+}
+
+.pontos{
+    margin-top: 20px;
+}
+
+.pontos button {
+margin-top: 20px;
+padding: 10px 20px;
+font-size: 16px;
+background-color: #4caf50;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.pontos button:hover {
+     background-color: #45a049;
+}
